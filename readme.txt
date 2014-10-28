@@ -35,9 +35,10 @@ If you would like to roll up your sleeves a little farther you can manually add 
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `loyaltyjs` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Configure the loyalty.js in the admin console. Settings -> Loyalty.js
+1. Use the shortcode or add the data-attributes directly to your DOM elements to unleash the goodness.
 
 == Frequently Asked Questions ==
 
