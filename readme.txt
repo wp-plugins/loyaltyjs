@@ -12,27 +12,23 @@ Loyalty.js tracks visitor page views and helps you to serve content dynamically 
 
 == Description ==
 
-# Loyalty.js
-
-## About
-
 Loyalty js is a lightweight jQuery plugin that keeps track of how many times a user has come to your web property and allows you to craft a different experience based on that count. You can control the behavior by adding data-attribute tags to your DOM elements. Now, rather than having content rotate for every user at the same time, you will be able to "tell a story" that always starts at the beginning and progresses as a user becomes more engaged.
 
-# Wordpress Usage
+
+Wordpress Usage
 
 This wordpress plugin comes complete with a shortcode that allows you to use loyalty.js tags in your content editor code. The shortcode is an enclosing tag.
-
 
 [loyalty min="3" max="4"]<h1>Your Content</h1>[/loyalty]
 
 
 The plugin will honor min and max first. If you want the content to display at one specific view count, use ONLY the exact parameter.
 
-
 [loyalty exact="6"]<h1>This content will show on visit #6</h1>[/loyalty]
 
 
-# Advanced Implementation
+
+Advanced Implementation
 
 If you would like to roll up your sleeves a little farther you can manually add data-attribute tage into your code. Please read the documentation on the GitHub page. https://github.com/eisenivan/loyalty
 
