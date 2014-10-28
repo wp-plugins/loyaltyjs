@@ -19,12 +19,12 @@ Wordpress Usage
 
 This wordpress plugin comes complete with a shortcode that allows you to use loyalty.js tags in your content editor code. The shortcode is an enclosing tag.
 
-[loyalty min="3" max="4"]<h1>Your Content</h1>[/loyalty]
+[loyalty min="3" max="4"]Your Content[/loyalty]
 
 
 The plugin will honor min and max first. If you want the content to display at one specific view count, use ONLY the exact parameter.
 
-[loyalty exact="6"]<h1>This content will show on visit #6</h1>[/loyalty]
+[loyalty exact="6"]This content will show on visit #6[/loyalty]
 
 
 
