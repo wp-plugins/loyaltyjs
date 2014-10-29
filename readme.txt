@@ -20,11 +20,11 @@ Loyalty js is a lightweight jQuery plugin that keeps track of how many times a u
 
 Imagine you are a technology company with multiple project case studies on your site. As it stands now you can either...
 
-1) Show your best case study first. This is great because people will see it first, but people that are returning to your site for the 3rd, 8th, 12th time still see it. Sure, you have calls to action that allow them to dig deeper and explore your content, but in essence, your landing page is no longer relevant to them. It is a wasted opportunity.
+<strong>1)</strong> Show your best case study first. This is great because people will see it first, but people that are returning to your site for the 3rd, 8th, 12th time still see it. Sure, you have calls to action that allow them to dig deeper and explore your content, but in essence, your landing page is no longer relevant to them. It is a wasted opportunity.
 
 This leads people to...
 
-2) Change up their content. They want to keep it "fresh". The problem here is that a lot of people will come to your site that may never discover your favorite piece. Every user, regardless of how many times they have come see the same content. This feels like the equivilant of reading a story and forcing people that arrive late to join in the middle. What is "newest" is not always the most relevant way to introduce a first time visitor to your brand.
+<strong>2)</strong> Change up their content. They want to keep it "fresh". The problem here is that a lot of people will come to your site that may never discover your favorite piece. Every user, regardless of how many times they have come see the same content. This feels like the equivilant of reading a story and forcing people that arrive late to join in the middle. What is "newest" is not always the most relevant way to introduce a first time visitor to your brand.
 
 With loyalty.js you can dictate an experience that is based on how many times the user has visited your site, not an artificial timeline driven by "SEO Friendly Content Updates".
 
