@@ -63,7 +63,7 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 == Changelog ==
 
 = 1.1.0.0 =
-*Added shortcode to display the current number of loyalty views
+* Added shortcode to display the current number of loyalty views
 
 = 1.0.0.0 =
 * Hello world!!! The initial release
