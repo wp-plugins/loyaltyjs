@@ -2,7 +2,7 @@
 Contributors: eisenivan
 Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic
-Version: 1.1.0.0
+Version: 1.1
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 1.1.0.0
@@ -67,3 +67,8 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 
 = 1.0.0.0 =
 * Hello world!!! The initial release
+
+== Upgrade Notice ==
+
+= 1.1.0.0 =
+* Added shortcode to display the current number of loyalty views
