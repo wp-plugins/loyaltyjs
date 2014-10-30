@@ -2,7 +2,6 @@
 Contributors: eisenivan
 Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic
-Version: 1.1
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 1.1.0.0
