@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Loyalty.js ===
 Contributors: eisenivan
 Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic
