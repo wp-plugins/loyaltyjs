@@ -24,7 +24,7 @@
 ?>
 
 <div class="wrap">
-    <?php echo "<h2>" . __( 'Summits Sitewide Alert Message', 'loyalty_js' ) . "</h2>"; ?>
+    <?php echo "<h2>" . __( 'Loyalty.js', 'loyalty_js' ) . "</h2>"; ?>
     
     <style>
     .meta-info {
