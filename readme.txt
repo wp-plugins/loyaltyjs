@@ -62,5 +62,5 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0.0 =
 * Hello world!!! The initial release
