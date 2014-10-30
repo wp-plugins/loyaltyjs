@@ -4,7 +4,7 @@ Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 1.0.0.0
+Stable tag: 1.1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,12 +34,11 @@ This wordpress plugin comes complete with a shortcode that allows you to use loy
 
 [loyalty min="3" max="4"]Your Content[/loyalty]
 
-
 The plugin will honor min and max first. If you want the content to display at one specific view count, use ONLY the exact parameter.
 
 [loyalty exact="6"]This content will show on visit #6[/loyalty]
 
-
+There is also a shortcode that allows you to print the number of views to the page. Simply add [loyalty_count] to your post content and Loyalty.js will render in a span tag with the css class of 'loyaltyjs_count' and the data-attribut 'data-loyalty-count'. When it runs the plugin will fill in the integer value.
 
 <strong>Advanced Implementation</strong>
 
@@ -61,6 +60,9 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 
 
 == Changelog ==
+
+= 1.1.0.0 =
+*Added shortcode to display the current number of loyalty views
 
 = 1.0.0.0 =
 * Hello world!!! The initial release

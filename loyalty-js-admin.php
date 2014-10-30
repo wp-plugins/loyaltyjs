@@ -44,12 +44,22 @@
     li {
         margin-bottom: 25px;
     }
-
     </style>
 
     <p class="lead">Use the options below to customize Loyalty.js. To really dig deep into the Loyalty.js plugin please visit the <a target="_blank" href="https://github.com/eisenivan/loyalty">Loyalty.js Github Page.</a> If you like this plugin please don't hesitate to take a moment and <a target="_blank" href="https://wordpress.org/plugins/loyaltyjs/">write a review, I would really appreciate it.</a> Thanks!</p>
 
     <hr>
+
+    <h3>Wordpress Shortcodes</h3>
+    <p>This wordpress plugin comes complete with a shortcode that allows you to use loyalty.js tags in your content editor code. The shortcode is an enclosing tag.</p>
+    <pre>[loyalty min="3" max="4"]Your Content[/loyalty]</pre>
+    <p>There is also a shortcode that allows you to print the number of views to the page.</p>
+    <pre>[loyalty_count]</pre>
+    <p>Just add this self-closing shortcode to your post content and Loyalty.js will render in a span tag with the css class of 'loyaltyjs_count' and the data-attribut 'data-loyalty-count'. When it runs the plugin will fill in the integer value.</p>
+
+    <hr>
+
+    <h3>Plugin Options</h3>
 
     <form name="loyalty_js_admin_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
         <input type="hidden" name="loyalty_js_submission_check" value="Y">

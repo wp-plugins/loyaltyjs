@@ -20,9 +20,14 @@ function loyalty_js_shortcode( $atts , $content = null ) {
 	);
 
 	// Code
-return '<span data-loyalty="'.$atts['exact'].'" data-loyalty-min="'.$atts['min'].'" data-loyalty-max="'.$atts['max'].'">' . $content . '</span>';
-
+	return '<span data-loyalty="'.$atts['exact'].'" data-loyalty-min="'.$atts['min'].'" data-loyalty-max="'.$atts['max'].'">' . $content . '</span>';
 }
+
+// Register Display Count Shortcode
+function loyalty_js_count() {
+	return '<span class="loyaltyjs_count" data-loyalty-count></span>';
+}
+
 
 // register Scripts
 function register_loyalty_scripts() {
@@ -40,8 +45,9 @@ function register_loyalty_scripts() {
 
 function loyalty_init(){
 
-	// register shortcode
+	// register shortcodes
 	add_shortcode( 'loyalty', 'loyalty_js_shortcode' );
+	add_shortcode( 'loyalty_count', 'loyalty_js_count' );
 
 	// register scripts
 	add_action( 'wp_enqueue_scripts', 'register_loyalty_scripts' );
