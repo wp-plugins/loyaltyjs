@@ -1,5 +1,6 @@
 === Loyalty.js ===
 Contributors: eisenivan
+Version: 2.0.0
 Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic
 Requires at least: 3.0.1
