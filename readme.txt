@@ -4,7 +4,7 @@ Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 1.1.0.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,10 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 
 
 == Changelog ==
+
+= 2.0.0 =
+* Updated to new version of Loyalty.js script. This fixes the issue of the loyalty count shortcode not rendering if there are no loyalty shortcode tags on the page.
+* Updated version a whole point in an effort to fix the versioning in the Wordpress plugin distribution system. Fingers crossed...
 
 = 1.1.0.0 =
 * Added shortcode to display the current number of loyalty views
