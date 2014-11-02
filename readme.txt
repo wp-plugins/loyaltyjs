@@ -1,7 +1,7 @@
 === Loyalty.js ===
 Contributors: eisenivan
 Donate link: https://github.com/eisenivan/loyalty
-Tags: customer loyalty, jquery, loyalty, user rewards, business logic
+Tags: customer loyalty, jquery, loyalty, user rewards, business logic, view count
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 2.0.1
@@ -76,5 +76,5 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 
 == Upgrade Notice ==
 
-= 1.1.0.0 =
-* Added shortcode to display the current number of loyalty views
+= 2.0.1 =
+* Fixed bug that casued a JS error when using the $ jQuery namespace
