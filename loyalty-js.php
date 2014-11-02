@@ -2,7 +2,7 @@
 /*
 Plugin Name: Loyalty.js
 Description: Page view based storytelling based on loyalty.js for Wordpress
-Version: 2.0.0
+Version: 2.0.1
 Author: Ivan Eisenberg
 Author URI: http://thosewhodig.net
 */
