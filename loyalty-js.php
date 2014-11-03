@@ -2,7 +2,7 @@
 /*
 Plugin Name: Loyalty.js
 Description: Page view based storytelling based on loyalty.js for Wordpress
-Version: 2.0.1
+Version: 2.0.2
 Author: Ivan Eisenberg
 Author URI: http://thosewhodig.net
 */
@@ -55,12 +55,23 @@ function loyalty_init(){
 }
 
 function loyalty_js_admin_actions() {
-    add_options_page("Loyalty.js", "Loyalty.js", "manage_options", "loyalty_js_options", "loyalty_js_admin_render");
+		add_options_page("Loyalty.js", "Loyalty.js", "manage_options", "loyalty_js_options", "loyalty_js_admin_render");
 }
 
 function loyalty_js_admin_render(){
 	include('loyalty-js-admin.php');
 }
+
+// Add settings link on plugin page
+function loyalty_plugin_settings_link($links) { 
+	$settings_link = '<a href="options-general.php?page=loyalty_js_options">Settings</a>'; 
+	array_unshift($links, $settings_link); 
+	return $links; 
+}
+
+$plugin = plugin_basename(__FILE__); 
+add_filter("plugin_action_links_$plugin", 'loyalty_plugin_settings_link' );
+
 
 if(!is_admin()){
 	// Frontend

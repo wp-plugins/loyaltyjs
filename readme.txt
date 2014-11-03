@@ -4,7 +4,7 @@ Donate link: https://github.com/eisenivan/loyalty
 Tags: customer loyalty, jquery, loyalty, user rewards, business logic, view count
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,9 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 
 == Changelog ==
 
+= 2.0.2 =
+* Added 'settings' link to the Loyalty.js entry on the Admin plugins page
+
 = 2.0.1 =
 * Fixed bug that casued a JS error when using the $ jQuery namespace
 
@@ -75,6 +78,9 @@ This plugin is designed to make "storytelling" easier. The web is often boring, 
 * Hello world!!! The initial release
 
 == Upgrade Notice ==
+
+= 2.0.2 =
+* Added 'settings' link to the Loyalty.js entry on the Admin plugins page
 
 = 2.0.1 =
 * Fixed bug that casued a JS error when using the $ jQuery namespace
